@@ -10,4 +10,9 @@ class PessoaApiApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	public void	applicationStartTest(){
+		PessoaApiApplication.main(new String[] {});
+	}
+
 }
